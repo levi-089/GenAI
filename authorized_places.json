@@ -1,0 +1,245 @@
+{
+  "Usaquén": {
+    "category": [
+      "gastronomía",
+      "cultura",
+      "paseo"
+    ],
+    "allowed_activities": {
+      "caminar": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 30
+      },
+      "visitar restaurantes": {
+        "min_cost_usd": 20,
+        "max_cost_usd": 50
+      },
+      "visitar cafés": {
+        "min_cost_usd": 8,
+        "max_cost_usd": 20
+      },
+      "observar arquitectura": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "realizar actividades culturales": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 30
+      }
+    },
+    "descripcion": "Sector tradicional de Bogotá con restaurantes, cafés, arquitectura y espacios culturales.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Usaquen+Bogota+Colombia"
+  },
+  "Zona G": {
+    "category": [
+      "gastronomía"
+    ],
+    "allowed_activities": {
+      "experiencia culinaria": {
+        "min_cost_usd": 30,
+        "max_cost_usd": 70
+      },
+      "visitar restaurantes": {
+        "min_cost_usd": 25,
+        "max_cost_usd": 60
+      },
+      "cenar": {
+        "min_cost_usd": 30,
+        "max_cost_usd": 70
+      }
+    },
+    "descripcion": "Sector reconocido por su oferta gastronómica y variedad de restaurantes.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Zona+G+Bogota+Colombia"
+  },
+  "Mercado de La Perseverancia": {
+    "category": [
+      "gastronomía"
+    ],
+    "allowed_activities": {
+      "conocer comida colombiana": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 25
+      },
+      "explorar gastronomía local": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 25
+      }
+    },
+    "descripcion": "Mercado tradicional conocido por su oferta de comida colombiana y gastronomía local.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mercado+de+La+Perseverancia+Bogota"
+  },
+  "Parque de la 93": {
+    "category": [
+      "gastronomía",
+      "paseo"
+    ],
+    "allowed_activities": {
+      "caminar": {
+        "min_cost_usd": 25,
+        "max_cost_usd": 75
+      },
+      "visitar restaurantes": {
+        "min_cost_usd": 30,
+        "max_cost_usd": 70
+      },
+      "visitar cafés": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 30
+      },
+      "realizar actividades relajadas": {
+        "min_cost_usd": 20,
+        "max_cost_usd": 60
+      }
+    },
+    "descripcion": "Zona urbana con restaurantes, cafés y espacios para caminar y realizar actividades relajadas.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Parque+de+la+93+Bogota"
+  },
+  "La Candelaria": {
+    "category": [
+      "cultura",
+      "historia"
+    ],
+    "allowed_activities": {
+      "recorrer arquitectura colonial": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 20
+      },
+      "caminar": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "visitar museos": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 30
+      },
+      "visitar plazas": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "realizar recorridos culturales": {
+        "min_cost_usd": 15,
+        "max_cost_usd": 35
+      }
+    },
+    "descripcion": "Centro histórico de Bogotá, caracterizado por arquitectura colonial, museos, plazas y oferta cultural.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La+Candelaria+Bogota+Colombia"
+  },
+  "Chorro de Quevedo": {
+    "category": [
+      "cultura",
+      "historia"
+    ],
+    "allowed_activities": {
+      "conocer historia": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "observar arquitectura": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "realizar recorridos culturales": {
+        "min_cost_usd": 10,
+        "max_cost_usd": 30
+      }
+    },
+    "descripcion": "Espacio tradicional de La Candelaria relacionado con historia, arquitectura y recorridos culturales.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chorro+de+Quevedo+Bogota"
+  },
+  "Museo Nacional de Colombia": {
+    "category": [
+      "cultura",
+      "historia",
+      "arte"
+    ],
+    "allowed_activities": {
+      "conocer historia": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 20
+      },
+      "conocer patrimonio": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 20
+      },
+      "observar arte": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 20
+      },
+      "realizar visita cultural": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 20
+      }
+    },
+    "descripcion": "Museo dedicado a historia, patrimonio, arte y cultura colombiana.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Museo+Nacional+de+Colombia+Bogota"
+  },
+  "Biblioteca Luis Ángel Arango": {
+    "category": [
+      "cultura"
+    ],
+    "allowed_activities": {
+      "actividades de lectura": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "conocer patrimonio": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "observar arte": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "realizar actividades culturales": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 20
+      }
+    },
+    "descripcion": "Espacio cultural relacionado con lectura, patrimonio, arte y actividades culturales.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Biblioteca+Luis+Angel+Arango+Bogota"
+  },
+  "Museo Botero": {
+    "category": [
+      "arte",
+      "cultura"
+    ],
+    "allowed_activities": {
+      "observar obras de Fernando Botero": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "observar obras de artistas internacionales": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      },
+      "realizar visita cultural": {
+        "min_cost_usd": 5,
+        "max_cost_usd": 15
+      }
+    },
+    "descripcion": "Museo del centro histórico con obras de Fernando Botero y artistas internacionales.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Museo+Botero+Bogota"
+  },
+  "Monserrate": {
+    "category": [
+      "paseo",
+      "turismo"
+    ],
+    "allowed_activities": {
+      "observar vistas de la ciudad": {
+        "min_cost_usd": 15,
+        "max_cost_usd": 35
+      },
+      "subir en teleférico": {
+        "min_cost_usd": 15,
+        "max_cost_usd": 35
+      },
+      "subir en funicular": {
+        "min_cost_usd": 15,
+        "max_cost_usd": 35
+      }
+    },
+    "descripcion": "Punto panorámico de Bogotá con acceso mediante teleférico o funicular y vistas de la ciudad.",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Monserrate+Bogota+Colombia"
+  }
+}

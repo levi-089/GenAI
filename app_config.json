@@ -1,0 +1,12 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": "qwen_travel_lora",
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "architecture": [
+    "Prompting",
+    "RAG",
+    "LoRA",
+    "Structured Output",
+    "Deterministic Validation"
+  ]
+}
