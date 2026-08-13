@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel AI Planner</title>
+<link rel="stylesheet" href="frontend/styles.css">
+</head>
+<body>
+<main class="container">
+<section class="hero">
+<span class="badge">IA Generativa + RAG + LoRA</span>
+<h1>Travel AI Planner</h1>
+<p>Genera itinerarios personalizados utilizando inteligencia artificial, recuperación de información y validación estructurada.</p>
+</section>
+<section class="planner-card">
+<h2>Configura tu viaje</h2>
+<form id="travelForm">
+<div class="form-grid">
+<div class="form-group"><label for="destination">Destino</label><input type="text" id="destination" value="Bogotá, Colombia" required></div>
+<div class="form-group"><label for="days">Duración (días)</label><input type="number" id="days" min="1" max="10" value="4" required></div>
+<div class="form-group"><label for="budget">Presupuesto</label><input type="number" id="budget" min="1" value="700" required></div>
+<div class="form-group"><label for="currency">Moneda</label><select id="currency"><option value="USD" selected>USD</option><option value="COP">COP</option><option value="EUR">EUR</option></select></div>
+<div class="form-group"><label for="travelStyle">Ritmo del viaje</label><select id="travelStyle"><option value="relajado">Relajado</option><option value="moderado" selected>Moderado</option><option value="intenso">Intenso</option></select></div>
+<div class="form-group"><label for="adults">Adultos</label><input type="number" id="adults" min="1" max="20" value="2" required></div>
+<div class="form-group"><label for="children">Niños</label><input type="number" id="children" min="0" max="20" value="0" required></div>
+</div>
+<div class="form-group full-width"><label>Intereses</label><div class="checkbox-group"><label><input type="checkbox" name="interests" value="cultura" checked> Cultura</label><label><input type="checkbox" name="interests" value="gastronomía" checked> Gastronomía</label><label><input type="checkbox" name="interests" value="historia"> Historia</label><label><input type="checkbox" name="interests" value="arte"> Arte</label><label><input type="checkbox" name="interests" value="naturaleza"> Naturaleza</label></div></div>
+<div class="form-group full-width"><label for="restrictions">Restricciones o preferencias</label><textarea id="restrictions" rows="3" placeholder="Ejemplo: sin actividades extremas">sin actividades extremas</textarea></div>
+<button type="submit" id="generateButton">Generar itinerario</button>
+</form>
+</section>
+<section id="statusSection" class="status hidden"><p id="statusMessage">Generando itinerario...</p></section>
+<section id="resultSection" class="results hidden"><div class="results-header"><div><span class="badge">Itinerario personalizado</span><h2>Tu viaje</h2></div><button id="newSearchButton" class="secondary-button">Nueva búsqueda</button></div><div id="itineraryContainer"></div></section>
+<footer><p>Proyecto académico de IA Generativa · Qwen2.5 + RAG + LoRA + Validación determinista</p></footer>
+</main>
+<script src="frontend/script.js"></script>
+</body>
+</html>
